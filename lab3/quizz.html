@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Local</title>
+    <meta name="author" content= "João Santos">
+    <meta name="keywords" content="Terrinha,Cidade das bacas">
+    <meta name="desciption" content="Descrição sobre a Bacas">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <body style="background-color:aliceblue"></body>
+</head>
+<body>
+    <center>
+        <h1> Génova</h1>
+        <img src="images/genova2.jpg" alt="Genova">
+        <br>
+        <a href="quizz.html"> Quizz |</a>
+        <a href="comentarios.html"> Comentário |</a>
+        <a href="../index.html"> Home |</a>
+        <a href="index.html"> Introdução |</a>
+        <a href="local.html"> Localização |</a>
+        <a href="info.html"> Informação |</a>
+        <a href="multimedia.html"> Multimédia</a>
+       
+        <hr>
+        <h3>Quizz</h3> 
+        <form method="post" 
+        action="mailto:a21905131@alunos.ulht.pt" enctype="text/plain">
+        
+        <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+            Nome: <input type="text" name = "nome" placeholder="nome">
+        </p>
+        <p>
+            Apelido: <input type="text" name = "apelido" placeholder="apelido">
+        </p>
+        
+          <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Insira o seu e-mail">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Perguntas sobre a visita e sobre o seu conhecimento relativamente a cidade</legend>
+            
+        <p>Voltaria a visitar a cidade? </p>
+        <label>
+            <input type="radio" name="opiniao" 
+            value="sim"> Sim
+            <input type="radio" name="opiniao" 
+            value="nao"> Não
+        </label>
+        <p>Qual destas bandeiras é a bandeira da cidade</p>
+        <label>
+            <input type="radio" name="opiniao" 
+            value="Certo"> <img src="images/bandeiraCidade.jpg">
+            <input type="radio" name="opiniao" 
+            value="Errado"> <img src="images/bandeiraVeneza.jpg">
+            <input type="radio" name="opiniao" 
+            value="Errado"> <img src="images/bandeiraFlorenca.jpg">
+            <br>
+            <input type="radio" name="opiniao" 
+            value="Errado"> <img src="images/bandeiraMilao.jpg">
+            <input type="radio" name="opiniao" 
+            value="Errado"> <img src="images/bandeiraRoma.jpg">
+            <input type="radio" name="opiniao" 
+            value="Errado"> <img src="images/bandeiraSiracusa.jpg">
+        </label>
+            <br>
+        <br>
+        <label for="date">Quando visitou Génova</label>
+        <input type="date" name="dateInserida" min="2020-05-02">  
+       <br>
+       <br>
+       <p>Quantos habitantes tem a cidade?</p>
+       
+       <input type="range" min="100000" max="700000"
+       name="populacao" value="100000"
+       oninput="populacaoN.value = parseInt(populacao.value)">
+       <output name= "populacaoN" for="populacao">100000</output> habitantes
+       <br>
+       <br>
+       <p>Qual é a densidade de população?</p>
+        <input type="text" name="densidade">
+        <br>
+        <br>
+        <p>Qual sera a pertencagem que mete em relacao a cidade de Génova?</p>
+        <p>Sendo entre 0% e 45% - Cidade que não gostei</p>
+        <p>Sendo entre 46% e 70% - Cidade que penso voltar a visitar</p>
+        <p>Sendo entre 71% e 100% - Adorei a cidade e tenciono voltar muito brevemente</p>
+            <input type="range" min="0" max="100"
+            name="taxa" value="0"
+            oninput="taxaN.value = parseInt(taxa.value)">
+            <output name= "taxaN" for="taxa">0</output> %
+            <br>
+            <br>
+        <input type="submit" value="Submeta o Quizz">
+        <input type="reset" value="reset">
+        </center>
+    </fieldset>
+  
+        
+    </form>
+    </body>
+    </html>
