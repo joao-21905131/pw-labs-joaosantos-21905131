@@ -24,6 +24,120 @@
         
         <hr>
         <h3>Comentários</h3> 
+    </center>
+        <form 
+        method="POST" 
+        action="mailto:a21905131@alunos.ulht.pt">
+        
+        <fieldset>
+            <legend align ="center">Comentários</legend>
+        
+            <p> O website apresenta lógica? <input type="text" name="name" placeholder="Sim ou Não"></p>
+            
+            <p> O website é preciso na informação? <input type="text" name="name" placeholder="Sim ou Não"></p>
 
+
+            <p>O website apresenta clareza?</p>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="sim">Sim
+            </label>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="nao">Não
+            </label>
+            <br>
+            <p>Como classifica o website quanto ao rigor (sendo 0% Pessimo, 50% Médio e 100% Excelente):</p>
+    
+                <input type="range" min="0" max="100"
+       name="populacao" value="0"
+       oninput="populacaoN.value = parseInt(populacao.value)">
+       <output name= "populacaoN" for="populacao">0</output> %
+            <br>
+            <p>Como classifica o website quanto a profundidade?</p>
+            <label>
+                <input type="radio" name="excelent"
+                value="excelente">Excelente
+            </label>
+            <label>
+                <input type="radio" name="bom"
+                value="bom">Bom
+            </label>
+            <label>
+                <input type="radio" name="razoavel"
+                value="razoavel">Razoavel
+            </label>
+            <label>
+                <input type="radio" name="mau"
+                value="mau">Mau
+            </label>
+            <label>
+                <input type="radio" name="muitoMau"
+                value="muitoMau">Muito mau
+            </label>
+            <br>
+            <p>Como classifica o website quanto a sua amplitude?</p>
+            <input type="range" min="0" max="100"
+            name="taxa" value="0"
+            oninput="taxaN.value = parseInt(taxa.value)">
+            
+            <br>
+            <p>O website é de facil compreensão</p>
+            <label>
+                <input type="radio" name = "ideia"
+                value="concordoPlenamente">Concordo plenamente
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideia"
+                value="concordo">Concordo
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideia"
+                value="discordo">Discordo
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideia"
+                value="discordoCompletamente">Discordo completamente
+            </label>
+            <br>
+            <p>O website é de facil utilização</p>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="concordoPlenamente">Concordo plenamente
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="concordo">Concordo
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="discordo">Discordo
+            </label>
+            <br>
+            <label>
+                <input type="radio" name = "ideiaSite"
+                value="discordoCompletamente">Discordo completamente
+            </label>
+            <br>
+            <label for="quanity">Avalie o website(sendo 1 o pior e 5 excelente):</label>
+            <input type="number" name="numero"  min="1" max="5">
+            <br>
+            <label for="quanity">Avalie o design do WebSite(sendo 1 o pior e 5 excelente):</label>
+            <input type="number" name="num"  min="1" max="5">
+            <br>
+            <br>
+            <p>Sugestões de melhorias que poderiam ser realizadas</p>
+            <textarea name="comment" cols="50" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submeta o comentario">
+            <input type="reset" value="reset">
+        
+        </fieldset>
+    </form>
     </body>
     </html>
