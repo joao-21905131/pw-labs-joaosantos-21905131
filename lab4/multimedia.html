@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
+<head><link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
     <title>multimedia</title>
     <meta name="author" content= "João Santos">
-    <meta name="keywords" content="Terrinha,Cidade das bacas">
+    <meta name="keywords" content="Viagem, Italia, Génova">
     <meta name="desciption" content="Descrição sobre a Bacas">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <body style="background-color:aliceblue"></body>
@@ -12,11 +12,17 @@
     <!--https://fonts.google.com/icons-->
     <!--https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+  </head>
 <body>
+
+  <figure class="sticky">
+    <img src="images/genova2.jpg" alt="Genova">
+  </figure>
+  
     <center>
       <header>
-      <h1> Génova</h1>
+        <section>
+      <h1>&#127774; Génova &#127774;</h1>
       <figure>
       <img src="images/genova2.jpg" alt="Genova">
       <figcaption>Génova</figcaption>
@@ -37,12 +43,10 @@
       <a href="local.html"><i class="material-icons">location_on</i> Localização |</a>
       <a href="info.html"><i class="material-icons">description</i> Informação |</a>
       <a href="multimedia.html"><i class="material-icons">mms</i> Multimédia</a>
-     
 
       <hr>
-      <header>
+      <section>
       <h3>Multimédia</h3> 
-      </header>
       <figure>
       <a href="images/grande_portofino.jpg" target="foto"><img src="images/pequena_portofino.jpg" alt="Portofino"></a>
       <figcaption>Portofino</figcaption>
@@ -55,7 +59,10 @@
       <hr>
       <h3>Video de Génova </h3>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/NNPg78RVgeg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
       <hr>
+    
+      <section>
       <h1>Poema de Mário Quintana </h1>
       <h3>O mapa</h3>
       <p>
@@ -93,9 +100,28 @@
             E talvez de meu repouso... <br>
           </code>
     </i>
-  
 </p>
+</section>
 <hr>
+<!-- Sobreposição das imagens -->
+<section>
+  <br>
+  <figure>
+    <img src="images/piazzaDeFerrari.jpg" class="relativo">
+    <figcaption class="texto_absoluto">Foto Cool</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portofino.jpg" class="absoluto">
+    <figcaption class="texto_relativo">Outra Foto Cool</figcaption>
+  </figure>
+
+
+</section>
+<br>
+
+<hr>
+<section>
 <p>Primeira imagem em SVG.</p>
 <br>
  <br>
@@ -103,7 +129,9 @@
   <img src="images/imagem.svg" alt="Aquario de Génova" style="width:40%" >
   <figcaption>Tentativa de desenhar o Aquario de Génova</figcaption>
 </figure>
+</section>
 <hr>
+<section>
 <svg width="600" height="600">
     <g transform="translate(100,100)"> 
         <a href="index.html">
@@ -159,6 +187,7 @@
         </text> 
       </a>
       </svg>
+    </section>
     </center>
 
     </body>
