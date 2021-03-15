@@ -4,7 +4,7 @@
     font-size: 28px;
   }
   h4{
-    background-color: aquamarine;
+    background-color: aliceblue;
   }
   
   
@@ -17,21 +17,21 @@
   
   body nav {
     margin: auto;
-    background-color: #cfdddd;
+    background-color: aliceblue;
     margin: auto;
     width: 800px;
   }
   
   header ~ main {
     margin: auto;
-    background-color: #cfdddd;
+    background-color: aliceblue;
     margin: auto;
     width: 800px;
   }
   
   main + footer {
-    font-size: 34px;
-    background-color: #cfdddd;
+    font-size: 16px;
+    background-color: aliceblue;
     margin: auto;
     width: 800px;
   }
