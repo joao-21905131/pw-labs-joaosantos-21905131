@@ -1,0 +1,94 @@
+    h1 {
+    font-size: 28px;
+  }
+  h4{
+    background-color: aliceblue;
+  }
+  
+  
+  body header {
+    background-color: aliceblue;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+  }
+  
+  body nav {
+    margin: auto;
+    width: 800px;
+    font-size: 14px;
+  }
+  header ~ main {
+    margin: auto;
+    background-color: aliceblue;
+    margin: auto;
+    width: 800px;
+  }
+  
+  main + footer {
+    font-size: 16px;
+    background-color: aliceblue;
+    margin: auto;
+    width: 800px;
+  }
+  
+  img.relativo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid yellow;
+  }
+  img.absoluto2{
+    position: absolute; 
+    top: 2250px;
+    right: 180px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #1c1b5c;
+  }
+  img.absoluto1 {
+    position: absolute; 
+    top: 1840px;
+    right: 140px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #1c1b5c;
+  }
+  img.absoluto {
+    position: absolute; 
+    top: 2440px;
+    right: 480px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #1c1b5c;
+  }
+  figcaption.texto_relativo {
+    position: absolute;
+    top: 2420px;
+    right: 405px;
+    width: 200px;
+    height: 100px;
+    color: blue;
+  }
+  figcaption.texto_absoluto {
+    position: absolute;
+    top: 2510px;
+    right: 865px;
+    width: 200px;
+    height: 100px;
+    color: blue;
+  }
+  
+  figure.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+  }
+  
+  figure.outro {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
