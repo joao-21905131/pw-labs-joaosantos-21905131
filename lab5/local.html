@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+  
   <!--definir exibicao da janela-->
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
    
   <link rel="stylesheet" href="estilos.css">
 
     <meta charset="UTF-8">
-    <title>Local</title>
+    <title>Viagem</title>
     <meta name="author" content= "João Santos">
-    <meta name="keywords" content="Terrinha,Cidade das bacas">
-    <meta name="desciption" content="Descrição sobre a Bacas">
+    <meta name="keywords" content="Itália, web">
+    <meta name="desciption" content="Descrição sobre uma cidade">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <body style="background-color:aliceblue"></body>
     <link href="https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp" rel="stylesheet">
     <!--https://fonts.google.com/icons-->
     <!--https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style> 
+      div {
+        width: 100%;
+        height: 100%;
+      
+
+       
+        position: relative;
+        animation: mymove 5s ;
+        animation-fill-mode: forwards;
+      }
+      
+      #div1 {animation-timing-function: linear;
+        }
+      
+      @keyframes mymove {
+        from {left: -1000px;}
+        to {left: 0px;}
+      }
+      </style>
 </head>
 <body>
-    <center>
-      <header>
+<center>
+  <div class="header">
+    <header>
       <h1>&#127774; Génova &#127774;</h1>
       </header>
       <figure>
@@ -32,25 +54,48 @@
         <p>Podemos admirar na imagem o inicio do porto de Génova</p>
       </details>
     </figure>
-      <br> 
-      <nav>
-        <a href="html5-css.html"><i class="material-icons" style="font-size:24px;color:red">style</i> estilo |</a>
-        <a href="quizz.html"><i class="material-icons" style="font-size:24px;color:rgb(226, 100, 50)">history_edu</i> Quizz |</a>
-        <a href="comentarios.html"><i class="material-icons" style="font-size:24px;color:rgb(141, 217, 236)">feedback</i> Comentário |</a>
-        <a href="../index.html"><i class="material-icons" style="font-size:24px;color:rgb(166, 114, 173)">sensor_door</i> Home |</a>
-        <a href="index.html"><i class="material-icons" style="font-size:24px;color:rgb(199, 186, 0)">computer</i> Introdução |</a>
-        <a href="local.html"><i class="material-icons" style="font-size:24px;color:rgb(53, 124, 51)">location_on</i> Localização |</a>
-        <a href="info.html"><i class="material-icons" style="font-size:24px;color:rgb(90, 44, 44)">description</i> Informação |</a>
-        <a href="multimedia.html"><i class="material-icons" style="font-size:24px;color:rgb(3, 14, 170)">mms</i> Multimédia</a>
-       
-      </nav>
-      <hr>
+  </div>
+ 
+  <div class="row">
+    <div class="col-3 menu">
+      
+<ul>
+  <p>
+          <a href="html5-css.html"><i class="material-icons" style="font-size:24px;color:red">style</i> estilo </a></p>
+        </p>
+        <p>
+          <a href="quizz.html"><i class="material-icons" style="font-size:24px;color:rgb(226, 100, 50)">history_edu</i> Quizz </a>
+         </p>
+         <p>
+          <a href="comentarios.html"><i class="material-icons" style="font-size:24px;color:rgb(141, 217, 236)">feedback</i> Comentário </a>
+        </p>
+        <p> 
+          <a href="../index.html"><i class="material-icons" style="font-size:24px;color:rgb(166, 114, 173)">sensor_door</i> Home </a>
+        </p>
+        <p> 
+          <a href="index.html"><i class="material-icons" style="font-size:24px;color:rgb(199, 186, 0)">computer</i> Introdução </a>
+        </p>
+        <p> 
+          <a href="local.html"><i class="material-icons" style="font-size:24px;color:rgb(53, 124, 51)">location_on</i> Localização </a>
+        </p>
+        <p> 
+          <a href="info.html"><i class="material-icons" style="font-size:24px;color:rgb(90, 44, 44)">description</i> Informação </a>
+        </p>
+        <p>
+          <a href="multimedia.html"><i class="material-icons" style="font-size:24px;color:rgb(3, 14, 170)">mms</i> Multimédia</a>
+        </p>
+      
+    </ul>
+    </div>
+  
+    <div class="col-6">
       <main>
         <section>
       <h3>Localização</h3> 
   <p><b>Génova</b> é uma cidade italiana localizada na costa norte da Itália. </p>
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d433404.7827990844!2d9.103348978033708!3d44.46896347440803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1614275811699!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-<br>  <svg width="500" height="300">
+<br> </center>
+ <svg width="500" height="300">
     <image href="images/comons.jpg" width="100%" height="100%">
     </image>
     <!--Portofino-->
@@ -63,9 +108,11 @@
   <circle cx="293" cy="93" r="6" fill="green" /></a>
   </svg>
   <br>
+  
   <iframe src="images/piazzaDeFerrari.jpg" name="fotosLink" width="800px" height="440px" title="Fotos"></iframe>
 </section>
 <hr>
+
 <section>
   <svg width="800" height="600">
     <g transform="translate(100,100)"> 
@@ -124,25 +171,24 @@
       </svg>
     </section>
     </main>
-</center>
-<aside>
-  <figure>
-    <img src="images/portofino.jpg" width="30%" class="relativo">
-    <figcaption class="texto_absoluto">Portofino</figcaption>
-  </figure>
+  </div>
+  <center>
+    <div class="col-3 right">
+      <div class="aside">
+        <img src="images/foto1.png" class="relativoLocal">
+      <img src="images/foto8.png" class="absolutoLocal">
+      <img src="images/foto9.png" class="relativo3FotoLocal">
 
-  <figure>
-    <img src="images/boccadasse.jpg" width="60%" class="absoluto2">
-    <figcaption class="texto_relativo">Boccadasse</figcaption>
-  </figure>
-</aside>
-
-<aside>
-   Portofino ficou famosa nos anos 60, quando as highclasses de Roma passavam seus finais de semana por lá, revezando-se entre Portofino, Capri e outros achados da alta sociedade. Hoje em dia é refúgio dos milionários de Los Angeles
-
-</aside>
-<footer>
-  <n>João Santos, <a href="https://www.ulusofona.pt/">Universidade Lusofona</a>, a21905131</n>
-</footer>
+     
+    </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+    <footer>
+      <n>João Santos, <a href="https://www.ulusofona.pt/">Universidade Lusofona</a>, a21905131</n>
+    </footer> 
+   </center>
 </body>
 </html>
