@@ -142,7 +142,7 @@ body{
   img.relativoInfo {
     position: relative;
     top: -650px;
-    right: 350px;
+    right: 550px;
     width: 400px;
     height: 200px;
     border: 3px solid rgb(0, 0, 0);
@@ -264,7 +264,7 @@ body{
   img.relativo3FotoComentario {
     position: relative;
     top: -1775px;
-    right: -680px;
+    right: -830px;
     width: 200px;
     height: 100px;
     border: 3px solid rgb(0, 0, 0);
